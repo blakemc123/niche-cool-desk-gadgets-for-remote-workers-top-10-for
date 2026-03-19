@@ -1,0 +1,37 @@
+baseURL: https://niche-cool-desk-gadgets-for-remote-workers-top-10-for.vercel.app/
+languageCode: en-us
+title: Cool Desk Gadgets for Remote Workers (Top 10 for )
+theme: ''
+params:
+  description: "Whether you\u2019re working from your bedroom, kitchen, or a designated\
+    \ home office, these Amazon desk gadgets can make your setup more functional,\
+    \ focused, and fun. Most are affordable, easy to use, and s"
+  tagline: Your Guide to the Best Cool Desk Gadgets for Remote Workers (Top 10 for
+    )
+  adsense_pub_id: ''
+  adsense_slot_header: ''
+  adsense_slot_in_article: ''
+  adsense_slot_sidebar: ''
+menus:
+  main:
+  - name: Home
+    url: /
+    weight: 1
+  - name: Articles
+    url: /posts/
+    weight: 2
+  - name: About
+    url: /about/
+    weight: 3
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 3
+outputs:
+  home:
+  - HTML
+  - RSS
+enableRobotsTXT: true
